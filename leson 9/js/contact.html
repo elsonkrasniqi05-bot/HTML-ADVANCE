@@ -1,11 +1,168 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	
+	<title>Multipage Web -Kontakti</title>
+
+<style>
+     body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: ;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #45f542;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+
+form {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 6px rgba(46,204,113,0.5);
+    outline: none;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group input {
+    width: auto;
+}
+
+input[type="submit"] {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: #27ae60;
+}
+
+
+footer {
+    background: #45f542;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+</style>
 </head>
 <body>
+<header>
+	 <nav>	
+		   <a href="multi.html">Kryefaqja</a>
+		   <a href="contact.html">Na Kontaktoni</a>
+		   <a href="service.html">Sherbimet</a>
+		   <a href="multi.html">Rreth Nesh</a>
+	 </nav>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#45f542" fill-opacity="1" d="M0,192L30,176C60,160,120,128,180,149.3C240,171,300,245,360,234.7C420,224,480,128,540,90.7C600,53,660,75,720,74.7C780,75,840,53,900,74.7C960,96,1020,160,1080,165.3C1140,171,1200,117,1260,101.3C1320,85,1380,107,1410,117.3L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
 
+	</header>
+
+	<main>	
+
+<form>
+
+<fieldset>
+<legend> Log In</legend>
+<label for="firstname">First Name:</label> <br>
+<input type="text" name="firstname"> <br>
+<label for="lastname">Last Name:</label> <br>
+<input type="text" name="lastname"> <br>
+<label for="email">Email:</label> <br>
+<input type="Email" name="email"> <br>
+<label for="phone">Number:</label> <br>
+<input type="tel" name="phone"> <br>
+<label for="Pasword">Pasword:</label> <br>
+<input type="Pasword" name="Pasword" placeholder="Your Pasword"> <br> <br>
+
+ <label>Problems:</label><br> <br> 
+ <label for="log in">Log In</label><br>
+			<input type="checkbox" name="log in" id="log in" value="log in">
+		<label for="Pasword">Pasword</label><br>
+			<input type="checkbox" name="Pasword " id=" Pasword" value="Pasword ">
+
+		<label for="Number ">Number</label><br>
+			<input type="checkbox" name="Number" id="Number" value="Number ">
+
+		<label for="Others">Others</label><br>
+			<input type="checkbox" name="Others " id="Others" value="Others">
+
+		
+			
+<textarea name="mesage" id="mesage" rows="10" cols="20"></textarea> <br>
+  <input type="submit" value="Submit">
+
+</fieldset>
+
+
+</form>
+
+	</main>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#45f542" fill-opacity="1" d="M0,192L30,176C60,160,120,128,180,149.3C240,171,300,245,360,234.7C420,224,480,128,540,90.7C600,53,660,75,720,74.7C780,75,840,53,900,74.7C960,96,1020,160,1080,165.3C1140,171,1200,117,1260,101.3C1320,85,1380,107,1410,117.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+	<footer>
+
+  <p> All rights reserved  &copy; Elson Krasniqi </p>
+
+	</footer>
 </body>
 </html>
