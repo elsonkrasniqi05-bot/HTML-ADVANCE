@@ -1,10 +1,10 @@
 h1{
-color: green;
+color:black;
+font-family: cursive;
 
 }
 body {
-background: https://www.paperandtea.com/blogs/glossary/lemon;
-
+background-image:url(https://www.paperandtea.com/cdn/shop/articles/Zitrone_ea3353f5-21ff-476a-b7f2-56d9bb7071aa.jpg?v=1758033351&width=700);
 
 }
 #Box{
@@ -20,12 +20,12 @@ background: https://www.paperandtea.com/blogs/glossary/lemon;
 #limani{
    width: 200px;
    height:200px ;
-    background-color: yellow;
+    background-color: #ede60c;
     margin-top: 30px;
    margin-left: 500px;
    border: 2px solid black;
    
-   border-radius:25px 115px;
+   border-radius:25px 135px;
 } 
 #l{
  text-align: center;

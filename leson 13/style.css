@@ -1,0 +1,37 @@
+@font-face{
+font-family: "boicot";
+src:url("../fonts/boicot.ttf"); 
+}
+
+h1{
+ 
+
+font-family: "boicot";
+}
+p{
+text-indent: 50px;
+text-align: center;
+font-family:;
+font-size: 20px;
+}
+
+#mbi{
+text-decoration: overline;
+
+}
+#mes{
+ text-decoration: line-through;
+
+}
+#posht{
+text-decoration: underline;
+text-decoration-style: wavy;
+text-decoration-color: darkred;
+}
+a{
+text-decoration: none;
+
+}
+
+
+
