@@ -2,7 +2,11 @@
 font-family: "boicot";
 src:url("../fonts/boicot.ttf"); 
 }
-
+body{
+background:url(image/img2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
 h1{
  
 
@@ -30,6 +34,23 @@ text-decoration-color: darkred;
 }
 a{
 text-decoration: none;
+border: solid black 3px;
+}
+
+a:link{
+color: green;
+
+}
+a:visited{
+color: orange;
+
+}
+a:hover{
+color: purple;
+background-color: aqua ;
+}
+a:active{
+color: red;
 
 }
 
