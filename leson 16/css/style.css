@@ -40,34 +40,3 @@ right: 80px;
 width: 100px;
 height: 100px;
 }
-body{
- margin: 0px;
-
-}
-nav ul{
- list-style-type: none;
- margin: 0px;
- overflow: hidden;
- padding: 0px;
- background: #333;
-}
-nav ul li{
- float: left;
-
-}
-nav ul li a{
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
-}
-.active{
- background: lightblue;
- color: black;
-}
-
-nav li a:hover:not(.active){
- background: #111;
-
-}
